@@ -7,31 +7,31 @@ dineroCofla = parseFloat(dineroCofla);
 
 if (dineroCofla >= 0.6 && dineroCofla < 1) {
     alert("Cofla, comprate el helado de agua")
-    alert("y te sobran " + (dineroCofla - 0.6));
+    alert("y te sobran " + (dineroCofla - 0.6) + "USD");
 }
 else if (dineroCofla >= 1 && dineroCofla < 1.6) {
     alert("Cofla, comprate el helado de crema");
-    alert(`y te sobran ${dineroCofla - 1}`);
+    alert(`y te sobran ${dineroCofla - 1} USD`);
 }
 else if (dineroCofla >= 1.6 && dineroCofla < 1.7) {
     alert("Cofla, comprate un heladix");
-    alert("y te sobran " + (dineroCofla - 1.6));
+    alert("y te sobran " + (dineroCofla - 1.6) + "USD");
 }
 else if (dineroCofla >= 1.7 && dineroCofla < 2) {
     alert("Cofla, comprate un helardo")
-    alert("y te sobran " + (dineroCofla - 1.7));
+    alert("y te sobran " + (dineroCofla - 1.7) + "USD");
 
 }
 else if (dineroCofla >= 2 && dineroCofla < 2.9) {
     alert("Cofla, comprate un helado con confites o un pote de 1/4kg");
-    alert("y te sobran " + (dineroCofla - 2));
+    alert("y te sobran " + (dineroCofla - 2) + "USD");
 }
 else if (dineroCofla >= 3) {
     alert("Cofla, comprate un helado de 1/2kg")
-    alert("y te sobran " + (dineroCofla - 3));
+    alert("y te sobran " + (dineroCofla - 3) + "USD");
 }
 else {
-    alert("No tenes dinero suficiente para comprar ningun helado")
+    alert("No tenes dinero suficiente para comprar ningun helado :(")
 }
 
 
